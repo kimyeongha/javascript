@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.first{
+	background-color:skyblue; text-align:right; letter-spacing: 2px
+}
+hr{ 
+	border: 2px solid
+}
+h1{
+	text-align:center;  font-weight: bold; text-decoration:underline;
+}
+
+p{
+	text-align:center ; font-weight: bold;
+}
+
+#center{
+	text-align:center;
+}
+hr{
+	width:90%;
+}
+#id{
+	width:200px; margin-right:30px;
+}
+
+.number{
+	width:100px;
+}
+.birthday{
+	width:50px;
+}
+.post{
+	width:50px;
+}
+.cellphone{
+	width:50px;
+	
+}
+#adress{
+	width:300px;
+}
+#conver{
+	margin-right:30px;
+
+}
+#submit{
+	margin-right:30px;
+}
