@@ -21,9 +21,10 @@ var msg=prompt("인사말을 입력하세요")
 		 alert("안녕하세요")
  }else if(msg=="잘가"){
 	 alert("안녕히주무세요")
- }else if(msg=="잘있어"){
+ }else {
 	 break;
  }
  
  
 }
+alert("ㅇㅇ") 
