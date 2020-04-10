@@ -80,7 +80,7 @@ document.write(lin2.link("https://post.naver.com/viewer/postView.nhn?volumeNo=27
   document.write(text.charCodeAt(2)+"<br>"); //"하"라는 문자를 숫자 (유니코드)숫자로 바꿔줌
   document.write(String.fromCharCode(54616)+"<BR>");
   document.write(text.indexOf("세" )+"<br>");
-  document.write(text.lastIndexOf("세" ));
+  document.write(text.lastIndexOf("세" )); 
   **/
 
 var Aemail ="nanako@kakao.com" ;

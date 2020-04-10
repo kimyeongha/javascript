@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="javascript/js_20200408_ex01.js"></script>
+<style>
+    
+    .thumbnail img{
+    width:100px;
+    height:100px;
+    
+    }
+    .thumbnail{
+      border: 2px dashed black;
+      width: 120px;
+      padding:30px;
+      float:left;
+    }
+    .view{
+    background-color:red;
+    width:500px;
+    float:left;
+    }
+    .view img{
+     width:500px;
+     height:500px;
+    }
+    
+</style>
+</head>
+<body>
+   <div class="thumbnail">
+    <a href="#" onclick="setImage('barca.jpg')"> <img src= "image/barca.jpg"  id="barca"> </a> 
+      
+     <a  href="#" onclick="setImage('reister.jpg')">  <img src= "image/reister.jpg"  id="reister"></a>   
+      <a  href="#" onclick="setImage('bayern.png')">   <img src= "image/bayern.png" id="bayer"> </a> 
+    </div>
+    <div class="view" >
+             <img src="image/napoli.jpg"   id="target">
+    </div>
+    
+    
+</body>
+</html>
