@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.reverse{
+	color:white;
+	background:black;
+}
+div{
+	width:150px;
+	height:150px;
+	background:orange;
+	position:relative;
+}
